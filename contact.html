@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head><script>
-        function goBack() {
-          window.history.back()
-        }
-        </script></head>
+<head>
+    
+         <style>
+          /* Style for the back button */
+          .back-button {
+              font-size: 24px;
+              padding: 12px 20px;
+              background-color: #007bff;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          }
+  
+          .back-button:hover {
+              background-color: #0056b3;
+          }
+      </style>
+</head>
 <Title>Contact Us</Title>
-<body bgcolor="black" text="white">
-    <button onclick="goBack()" style="background-color: blue;">Go Back</button>
-    <center><img src="huntinghack.png" hieght=40% width=40%><center><hr color="blue">
-    <h1>You can  contact Us if you want any type of help :-</h1><br><br>
-    <p>Instagram :- <a href="https://www.instagram.com/huntinghackers67/">Instagram</a></p><br><br>
-    <p>Gmail id :- huntinghackers67@gmail.com </p>
-    </html>
+<link rel="stylesheet" href="style.css">
+<body>
+  <nav>
+    <div class="logo">HUNTINGHACKERS SECURITY</div>
+    <ul>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="blog.html">Blogs</a></li>
+      <li><a href="index.html">About Us</a></li>
+    </ul>
+  </nav>
+  <div class="black-section">
+    <!-- Content for the black section -->
+  </div>
+  <div class="white-section">
+    <div class="white-background">
+      <h1>If You Want Any Type Of Help You Can Contact Us Here:-</h1>
+      <p><a href="https://www.instagram.com/huntinghackers67/" target="_blank">Our Insatgram Page</a></p>
+      <p>Our Phone Number :- +918920771720</p>
+      <button class="back-button" onclick="goBack()">Go Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+  
 </body>
