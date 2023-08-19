@@ -1,0 +1,104 @@
+<!DOCTYPE html
+<html>
+<head></head>
+<title>Blogs</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    .dropbtn {
+      background-color: #041daa;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #0a34ec;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #0f28b5;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #3e518e;}
+    </style>
+    <style>
+      /* Define styles for the white background container */
+      .white-background {
+          background-color: white;
+          padding: 20px; /* Add padding for content spacing */
+          border: 1px solid #ccc; /* Add a border for better visibility */
+      }
+    </style>
+     <style>
+        /* Style for the back button */
+        .back-button {
+            font-size: 24px;
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    </head>
+    <body>
+    <nav>
+        <div class="logo">HUNTINGHACKERS SECURITY</div>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="index.html">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="black-section">
+        <!-- Content for the black section -->
+      </div>
+      <div class="white-section">
+        <div class="white-background">
+         <h1>What is session hijacking?</h1>
+         <img src="session2.png" height="50%" width="50%">
+         <p>Session hijacking is type of an cyber attack in which an attacker is able to steal users SESSION ID and it is also known as session stealing.</p>
+         <h1>Now again the questions comes here that what is  session ?</h1>
+         <p>When a user logs into an web application then , it creates an session id which will created on the server , now session id are created because to track the state between multiple connections from the same user,instead of requesting the user to authenticate upon each click in a website. </p>
+         <br>
+         <h1>Methods of Session Hijacking?</h1>
+         <p>1.Session Sniffing:- Here an attacker will use wireshark tool or a proxy to capture the network traffic containing the session ID between the website and a cient .</p>
+         <p>2.Cross-Site Scripting:- Here an attacker will inject the malicious script in the website that is view by the users,now an attacker can make her script to show the session ID of all the users</p>
+         <p>3.Man-in-the-browser:- It is basically similar to man in the middle attack but the hacker needs to infects the victim system by trojan.Once the victim is tricked into installing the tojan onto the system, the trojan waits for the victim to visit a targeted site. The man-in-the-browser trojan can invisibly modify transaction information.</p>
+         <p>4.Session Sidejacking:- Here an attacker is able to find the vulnerablity in the victim browser and exploited it easily , now he can obtain an session ID by the browser. </p>
+         <p>5.Session fixation:- Here an attacker tricks her victim to use a specific session ID which basically provided by an attacker,. Once the user logs in, the attacker uses the known session ID to gain control of the user's session.</p>
+         <br>
+         <h1>How to prevent from session hijacking attacks? </h1>
+         <img src="sess1.jpeg" height="50%" width="50%">
+         <br>
+         <p>Steps to safe yourself from session hijacking attacks:-</p>
+         <br>
+         <p>1.Avoid using Public WIFI connections</p>
+           <p> 2.Use a good vpn like nord vpn , proton vpn etc.</p>
+        <p>3.Keep your security software up-to-date
+       </p>
+       <p>Never click on an random site which is given by the unkown users.</p>
