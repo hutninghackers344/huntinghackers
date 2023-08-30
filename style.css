@@ -1,66 +1,11 @@
 
 
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Arial;
-    color: black;
-}
-nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    padding: 10px 90px;
-    box-sizing: border-box;
-    background: rgba(0,0,0,0.6);
-    border-bottom: 1px solid #fff;
-}
 
-nav .logo{
-    padding: 22px 20px;
-    height: 80px;
-    float:left;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-}
-nav ul{
-    list-style: none;
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
 
-nav ul li a{
-    line-height: 80px;
-    color: #fff;
-    padding: 12px 30px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-nav ul li a:hover{
-    background: rgba(0,0,0,0.7);
-    border-radius: 6px;
-}
-/* Reset default margin and padding for body */
-/* Reset default margin and padding for body */
+
 body {
-    margin: 0;
-    padding: 0;
-}
-
-/* Define styles for the black section */
-.black-section {
-    background-color: black;
-    color: black; /* Set text color to white for better visibility */
-    padding: 40px; /* Add padding for content spacing */
+    background-color: whitesmoke;
 }
 
 /* Define styles for the white section */
@@ -68,11 +13,161 @@ body {
     background-color: white;
     padding: 40px; /* Add padding for content spacing */
 }
+.menu-bar {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu-bar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-bar li {
+    margin: 0 20px;
+  }
+  
+  .menu-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  .menu-bar a:hover {
+    color: #ff9900;
+  }
+  /* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
 
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
 
+/* Style the logo */
+.logo img {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+}
 
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+}
 
+nav li {
+    margin: 0 15px;
+}
 
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
 
+nav a:hover {
+    color: #f39c12;
+}
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
 
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
 
+/* Style the logo container */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the logo image */
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 60px;
+}
+
+/* Style the logo text */
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the video section */
+.video-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: black;
+}
+
+.video-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.video-section video {
+    width: 50%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h2{
+    size: 100px;
+}
+.black-background {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    
+}
